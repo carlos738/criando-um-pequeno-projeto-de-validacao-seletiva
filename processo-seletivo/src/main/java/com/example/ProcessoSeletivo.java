@@ -33,7 +33,7 @@ public class ProcessoSeletivo {
         while(continuarTentando && tentativasRealizadas < 4);
         if (candidatoAtendeu) {
             System.out.println("Conseguimos entrar em contato com o candidato " + candidato + " na tentativa " + tentativasRealizadas );
-            //else
+            // else
             System.out.println("Não conseguimos contato com " + candidato + " número máximo de tentativas " +  "tentivasRealizadas" );
             
         }

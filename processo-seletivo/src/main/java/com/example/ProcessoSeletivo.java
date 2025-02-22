@@ -4,6 +4,13 @@ import java.util.Random;
 
 public class ProcessoSeletivo {
     public static void main(String[] args) {
+        analisarCandidato(4800.0);
+        analisarCandidato(5000.0);
+        analisarCandidato(4500.0);
+        analisarCandidato(4900.0);
+        analisarCandidato(5100.0);
+        analisarCandidato(6000.0);
+
         String[] candiadtos = {"Clark","Stwart","Morgan","Megan","Suzan","Cristina","Matew","Glen","Josh","Mkalister","Phil"};
 
         for(String candidato : candiadtos){
